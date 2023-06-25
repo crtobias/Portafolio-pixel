@@ -55,6 +55,17 @@ const Home = () => {
 
             <section id="home-3" className="home-3">
                 <h2>Skills:</h2>
+                <div className="container-skills">
+                    <div id="skil" className="skills1"></div>
+                    <div id="skil" className="skills2"></div>
+                    <div id="skil" className="skills3"></div>
+                    <div id="skil" className="skills4"></div>
+                    <div id="skil" className="skills5"></div>
+                    <div id="skil" className="skills6"></div>
+                    <div id="skil" className="skills7"></div>
+                    <div id="skil" className="skills8"></div>
+                    <div id="skil" className="skills9"></div>
+                </div>
             </section>
 
 

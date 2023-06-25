@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color: #000000;
     color: #ddd6d6;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
 }
 
 body{

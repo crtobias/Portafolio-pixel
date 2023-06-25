@@ -8,3 +8,9 @@
     font-family: 'Pixel', sans-serif;
     font-size: 1.3rem;
 }
+
+body{
+  background-color: #252525;
+  background-size: cover;
+  background-attachment: fixed;
+}
