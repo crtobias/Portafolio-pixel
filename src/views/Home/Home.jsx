@@ -9,6 +9,11 @@ const Home = () => {
             <section id="home-1" className="home-1-container">
                 <div className="home-1"></div>
                 <div className="player"></div>
+                <div className="text-player">
+                    <h1 className="text-player-name">Tobias Gonzalez</h1>
+                    <h3 className="text-player-details">soy desarrollador web full stack</h3>
+                </div>
+                
             </section>
 
 
@@ -22,8 +27,11 @@ const Home = () => {
                     <h2>Proyectos:</h2>
                 </div>
                 <div className="container-proyectos">
-                    <div className="proyectos">
-                        titulo
+                    <div id="poke" className="proyectos">
+                        <h2 id="poke-titulo">Poke App</h2>
+                    </div>
+                    <div id="rick" className="proyectos">
+                        <h2 id="rick-titulo">Rick And Morty</h2>
                     </div>
                     <div className="proyectos">
                         titulo
@@ -34,31 +42,7 @@ const Home = () => {
                     <div className="proyectos">
                         titulo
                     </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-
+                   
                 </div>
             </section>
 
