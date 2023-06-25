@@ -1,0 +1,163 @@
+.all-container{
+    position: relative;
+}
+.home-1-container{
+    position: relative;
+    height: 100vh;
+    border: solid 3px rgba(249, 245, 245, 0);
+    padding: 5px;
+    width: 85%;
+    padding-top: 1.5rem;
+}
+  .home-1 {
+    height: 97%;
+    width: 100%;
+    background-image: url("../../assets/ABOBOBO.png");
+    background-size: cover;
+    position: absolute;
+    filter: brightness(20%);
+}
+
+.player {
+    background-image: url("../../assets/player.png");
+    height: 46vh;
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-size: 26rem;
+    background-color: transparent;
+    margin-top: 50vh;
+    margin-left: 60%;
+    position: absolute;
+} 
+@media (width <=1111px) {
+    .player {
+        background-image: url("../../assets/player.png");
+        height: 46vh;
+        width: 50vw;
+        background-repeat: no-repeat;
+        background-size: 26rem;
+        background-color: transparent;
+        margin-top: 50vh;
+        margin-left: 40%;
+        position: absolute;
+    } 
+}
+
+@media (width <=671px) {
+    .player {
+        background-image: url("../../assets/player.png");
+        height: 46vh;
+        width: 90vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: transparent;
+        margin-top: 50vh;
+        margin-left: 0%;
+        position: absolute;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home-2 {
+    position: relative;
+    height: 100vh;
+    border: solid 3px rgba(249, 245, 245, 0);
+    padding: 5px;
+    width: 85%;
+    padding-top: 1.5rem;
+}
+
+.home-3 {
+    position: relative;
+    height: 100vh;
+    border: solid 3px rgba(249, 245, 245, 0);
+    padding: 5px;
+    width: 85%;
+    padding-top: 1.5rem;
+}
+
+
+
+.container-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
+    grid-gap: 15px;
+    height: 85vh;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.proyectos {
+    color: rgb(0, 0, 0);
+    background-color: #f1f1f163;
+    text-align: center;
+    height: 12rem;
+    width: 15rem;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.all-container {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media (width <=900px) {
+
+    .container-proyectos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-gap: 15px;
+        height: 85vh;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+
+    .proyectos {
+        color: rgb(0, 0, 0);
+        background-color: #f1f1f163;
+        text-align: center;
+        height: 8rem;
+        width: 60vw;
+        border: solid 1px rgb(0, 0, 0);
+        border-radius: 10px;
+        margin-left: 7vw;
+    }
+}

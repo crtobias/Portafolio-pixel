@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url('./assets/alagard.ttf') format('truetype');
+  }
+  
+  
+  *{
+    font-family: 'Pixel', sans-serif;
+    font-size: 1.3rem;
+}
