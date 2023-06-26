@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="player"></div>
                 <div className="text-player">
                     <h1 className="text-player-name">Tobias Gonzalez</h1>
-                    <h3 className="text-player-details">soy desarrollador web full stack</h3>
+                    <h3 className="text-player-details">Apasionado desarrollador full stack con 800+ horas de experiencia. Experto en crear experiencias digitales excepcionales. Orientado a resultados, aprendizaje constante y amante de la tecnología. Impulso proyectos al siguiente nivel.</h3>
                 </div>
                 
             </section>
@@ -32,15 +32,6 @@ const Home = () => {
                     </div>
                     <div id="rick" className="proyectos">
                         <h2 id="rick-titulo">Rick And Morty</h2>
-                    </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-                    <div className="proyectos">
-                        titulo
-                    </div>
-                    <div className="proyectos">
-                        titulo
                     </div>
                    
                 </div>
